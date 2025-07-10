@@ -7,7 +7,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class PosApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(PosApplication.class, args);
+		// JavaFX application will manage the Spring context lifecycle.
+		// SpringApplication.run(JavafxPosApplication.class, args);
 	}
 
 }
